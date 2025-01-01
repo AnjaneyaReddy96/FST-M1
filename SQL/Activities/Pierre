@@ -1,0 +1,11 @@
+-- Update the grade score of salesmen from Mumbai to 500.
+UPDATE salesman SET grade=500 WHERE salesman_city='mumbai';
+
+-- Update the grade score of rohit to 300.
+UPDATE salesman SET grade=300 WHERE salesman_name='rohit';
+
+-- Update the name tilak to varma.
+UPDATE salesman SET salesman_name='tilak' WHERE salesman_name='varma';
+
+-- Display modified data
+SELECT * FROM salesman;
