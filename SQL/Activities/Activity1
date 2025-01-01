@@ -1,0 +1,10 @@
+
+CREATE TABLE salesman (
+    salesman_id int,
+    salesman_name varchar(18),
+    salesman_city varchar(18),
+    commission int
+);
+
+
+DESCRIBE salesman;
