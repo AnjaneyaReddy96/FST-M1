@@ -1,0 +1,8 @@
+
+SELECT salesman_id, salesman_city FROM salesman;
+
+-- data of salesman from mumbai
+SELECT * FROM salesman WHERE salesman_city='mumbai';
+
+--salesman_id and commission of sachin
+SELECT salesman_id, commission FROM salesman WHERE salesman_name='sachin';
