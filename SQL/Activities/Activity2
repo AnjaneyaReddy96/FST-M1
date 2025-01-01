@@ -5,7 +5,7 @@ INSERT INTO salesman VALUES(5002, 'Nail Knite', 'Paris', 13);
 INSERT ALL
     INTO salesman VALUES(01, 'Rajesh', 'mumbai', 55)
     INTO salesman VALUES(02, 'rohit', 'nagpur', 45)
-    INTO salesman VALUES(04, 'aschin', 'pune', 18)
+    INTO salesman VALUES(04, 'sachin', 'pune', 18)
     INTO salesman VALUES(04, 'tilak', 'hyderabad', 12)
 SELECT 1 FROM DUAL;
 
